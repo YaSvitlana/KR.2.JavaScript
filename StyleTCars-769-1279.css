@@ -1,0 +1,5 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    h2, h3, h4, section, .container {
+        margin-left: 10px;
+    }
+}

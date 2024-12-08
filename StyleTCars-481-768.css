@@ -1,0 +1,22 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h2, h3, h4, section, .container {
+        margin-left: 10px;
+    }
+    .test{
+        margin: auto;
+        width: 90vw;
+        height: 90vh;
+    }
+    .list {
+        height: 30vh;
+        width: 65vw;
+    }
+    .btnAdd {
+        flex-direction: column;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .buttons {
+        gap: 5px;
+    }
+}

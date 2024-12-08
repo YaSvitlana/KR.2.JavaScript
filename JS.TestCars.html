@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analysis of car sales</title>
+    <link rel="stylesheet" href="StyleTestCars.css">
+    <link rel="stylesheet" href="StyleTCars-0-480.css">
+    <link rel="stylesheet" href="StyleTCars-481-768.css">
+    <link rel="stylesheet" href="StyleTCars-769-1279.css">
+
+</head>
+<body>
+
+<div class="test">
+    <h2>Analysis of auto store sales for the year</h2>
+    <h3>Сar brand/sold</h3>
+
+    <section id="carBrand">
+        <label for="car">Сar brand:</label>
+        <input type="text" id="car">
+        <label for="sales">Units sold:</label>
+        <input type="number" id="sales" min="0" max="10000" step="1">
+        <button class="btnAdd" type="button" onclick="addItem()">Add</button>
+    </section>
+
+    <h4>Car brand/units sold</h4>
+    <div class="container">
+        <div class="list">
+            <ul id="carSalesList"></ul>
+        </div>
+        <div class="buttons">
+            <button onclick="sortByName()">Sort by Name</button>
+            <button onclick="sortBySales()">Sort by Value</button>
+            <button onclick="clearList()">Delete</button>
+        </div>
+    </div>
+
+    <script src="ScriptTestCars.js">
+
+    </script>
+</div>
+</body>
+</html>

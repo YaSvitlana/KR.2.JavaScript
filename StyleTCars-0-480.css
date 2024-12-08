@@ -1,0 +1,47 @@
+@media screen and (max-width: 480px) {
+    .test {
+        margin: auto;
+        width: 95vw;
+        height: 95vh;
+    }
+    h2, h3, h4, section, .container {
+        margin-left: 10px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .test h2 {
+        padding-top: 2vh;
+    }
+    .container {
+        flex-direction: column;
+    }
+    label {
+        flex-direction: column;
+    }
+    .list {
+        height: 30vh;
+        width: 85vw;
+    }
+    .btnAdd {
+        flex-direction: column;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .buttons {
+        flex-direction: row;
+        gap: 8vw;
+        justify-content: center;
+    }
+    button {
+        width: 20vw;
+        height: 7vh;
+        color: #0e0c0c;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+}
